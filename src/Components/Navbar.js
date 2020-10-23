@@ -12,6 +12,7 @@ class Navbar extends React.Component {
                 <nav className='navbar navbar-expand-lg navbar-dark'>
                     <a className="navbar-brand text-light">Suped Up Random</a>
                     <ul className='navbar-nav ml-auto'>
+                    {/* go thourgh all pages and make a navbar with them and add an onlcick with the index as the pass through variable */}
                         {
                             this.props.pages.map((item, index) => {
                                 return (

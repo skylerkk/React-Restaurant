@@ -4,9 +4,12 @@ class Appitizers extends React.Component {
 
     render() {
         return (
+            
             <div className = 'py-3'>
+            {/* Title */}
             <h1>Appetizers</h1>
             <ul className='list-group'>
+                {/* Loop through all items in data and get a title, description and random price */}
                 {this.props.data.items.map((item,index) => {
                     return (
                         <li className='list-group-item' key={index}>
