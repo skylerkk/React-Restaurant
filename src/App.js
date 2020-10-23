@@ -107,13 +107,13 @@ class App extends React.Component {
           getPage={this.setPage}
         />
         {/* Render the top text */}
-        <div className='py-4 text-center'>
+        {/* <div className='py-4 text-center'>
           <h1 className='font-weight-bold'>Suped Up Random</h1>
           <h4>348 E Main St, Lexington, KY</h4>
           <h5>Hours: </h5>
           <h5>10 A.M. - 9 P.M.</h5>
           <h5>Monday - Saturday</h5>
-        </div>
+        </div> */}
         {this.state.menu.length &&
           <>
             {(this.state.page === 0) &&
