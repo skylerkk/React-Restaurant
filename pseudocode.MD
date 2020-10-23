@@ -4,7 +4,6 @@
     pages to swap between each page
     States
         menu that is an array with objects that hold each section of the menu
-        renderChild
         page on
     bind each function needed outside this class
 
